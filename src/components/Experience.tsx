@@ -4,32 +4,23 @@ import { Calendar, Code, Zap } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      period: "2020 - Present",
-      title: "Laravel Developer",
+      period: "2020 - 2024",
+      title: "JUNIOR WEB DEVELOPER",
       duration: "4 years",
-      description: "Specialized in building robust backend systems with Laravel framework. Developed multi-module applications, implemented clean architecture patterns, and optimized database performance.",
-      skills: ["Laravel", "PHP", "MySQL", "Redis", "REST APIs"],
+      description: "Conceptualized, created, and managed dynamic web pages for data display and entry using appropriate             technologies.Writing back-end code and building efficient PHP modules.Developing back-end portals with and optimized database",
+      skills: ["Laravel", "PHP", "MySQL", "JavaScript", "REST APIs"],
       icon: <Code className="w-5 h-5" />,
       color: "from-red-500 to-orange-500"
     },
     {
-      period: "2023 - Present",
-      title: "Node.js Transition",
+      period: "2024 - Present",
+      title: "Senior Software Developer",
       duration: "Ongoing",
       description: "Expanding expertise into Node.js ecosystem, learning modern JavaScript frameworks, working with Sequelize ORM, and building scalable backend solutions.",
       skills: ["Node.js", "Express.js", "Sequelize", "JavaScript ES6+", "JWT"],
       icon: <Zap className="w-5 h-5" />,
       color: "from-green-500 to-emerald-500"
     },
-    {
-      period: "2024 - Present",
-      title: "Learning Go (Golang)",
-      duration: "Current",
-      description: "Currently exploring Go programming language for high-performance backend development. Focusing on clean architecture, concurrency patterns, and building efficient APIs.",
-      skills: ["Go", "Gorilla Mux", "Clean Architecture", "Concurrency", "Performance"],
-      icon: <Calendar className="w-5 h-5" />,
-      color: "from-cyan-500 to-blue-500"
-    }
   ];
 
   return (
@@ -109,7 +100,7 @@ const Experience = () => {
             <h3 className="text-2xl font-bold mb-4">Currently Focusing On</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">Go</div>
+                <div className="text-3xl font-bold mb-2">NestJS</div>
                 <div className="text-blue-100">Learning modern backend development</div>
               </div>
               <div className="text-center">

@@ -7,7 +7,6 @@ const Skills = () => {
       skills: [
         { name: "PHP", level: 90, color: "bg-blue-500" },
         { name: "JavaScript", level: 85, color: "bg-yellow-500" },
-        { name: "Go (Golang)", level: 40, color: "bg-cyan-500" },
         { name: "SQL", level: 80, color: "bg-purple-500" }
       ]
     },

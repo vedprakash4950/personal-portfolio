@@ -6,14 +6,14 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "ved.prakash.pandey@email.com",
-      href: "mailto:ved.prakash.pandey@email.com"
+      value: "ved4950@gmail.com",
+      href: "mailto:ved4950@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXX"
+      value: "+91 95466 687583",
+      href: "tel:+919546687583"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
@@ -27,19 +27,19 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      href: "https://github.com/vedprakashpandey",
+      href: "https://github.com/vedprakash4950",
       color: "hover:text-gray-900 dark:hover:text-white"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/vedprakashpandey",
+      href: "https://www.linkedin.com/in/ved-prakash-pandey-721055193/",
       color: "hover:text-blue-600"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      href: "mailto:ved.prakash.pandey@email.com",
+      href: "mailto:ved4950@gmail.com",
       color: "hover:text-red-500"
     }
   ];
@@ -120,7 +120,7 @@ const Contact = () => {
                 Get a detailed overview of my experience and skills
               </p>
               <a
-                href="/resume.pdf"
+                href="/Ved-resume.pdf"
                 download
                 className="inline-flex items-center space-x-2 bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200"
               >
@@ -135,7 +135,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
               Send a Message
             </h3>
-            <form className="space-y-6">
+            <form className="space-y-6" action="mailto:ved4950@gmail.com">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">

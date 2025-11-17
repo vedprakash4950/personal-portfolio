@@ -4,45 +4,50 @@ import { ExternalLink, Github, Code, Database, Users, Globe } from 'lucide-react
 const Projects = () => {
   const projects = [
     {
-      title: "School Management System",
-      description: "Multi-module backend covering attendance, fees, teacher-student interaction. MVC pattern with queue-powered jobs and comprehensive logging system.",
-      tech: ["Node.js", "Sequelize", "JWT", "Job Queues", "MySQL"],
+      title: "PAKKET 2GO",
+      description: "Developed and launched Pakket2Go, a business logistics platform that streamlines first-mile collections by enabling companies to schedule flexible pick-ups for parcels, pallets, and documents at customer locations. Integrated advanced tracking software with real-time notifications, customizable branding, and AI-powered logistics optimization to improve delivery efficiency and provide a seamless, eco-conscious courier service for retailers, fulfillment centers, and manufacturers.",
+      tech: ["Laravel", "RestApis", "JWT", "Job Queues", "MySQL"],
       icon: <Users className="w-6 h-6" />,
       gradient: "from-blue-500 to-cyan-500",
-      features: ["Role-based Access", "Real-time Updates", "Automated Reports", "Queue Management"]
+      features: ["Role-based Access", "Real-time Updates", "Automated Reports", "Queue Management"],
+      url : "https://www.pakket2go.nl/en"
     },
     {
-      title: "Atravelq Booking Platform",
-      description: "Full-stack travel platform with agent and admin panel, multi-authentication system, and dynamic frontend for seamless booking experience.",
-      tech: ["Laravel", "PHP", "MySQL", "Multi-Auth", "Bootstrap"],
+      title: "Mayo World",
+      description: "Built Mayo World, an online B2B marketplace designed to connect manufacturers and suppliers with global buyers. The platform features over 30,000 trusted vendors, 500,000+ listed products, and 50,000 product categories, offering secure transactions, product sourcing, advertising tools, and transparent, efficient international trade opportunities for entrepreneurs and small businesses.",
+      tech: ["Codeigniter", "PHP", "MySQL", "Multi-Auth", "Bootstrap"],
       icon: <Globe className="w-6 h-6" />,
       gradient: "from-emerald-500 to-teal-500",
-      features: ["Agent Portal", "Admin Dashboard", "Dynamic UI", "Payment Integration"]
+      features: ["Agent Portal", "Admin Dashboard", "Dynamic UI", "Payment Integration"],
+      url : "https://www.mayoworld.com/"
     },
     {
-      title: "Local Tea/Coffee Employee Tracker",
-      description: "No backend required SPA using localStorage. Tracks daily preferences for team members with intuitive interface and data persistence.",
-      tech: ["React", "JavaScript", "LocalStorage", "CSS3"],
+      title: "Resource Portal",
+      description: "At Resource Portal, we provide innovative solutions to empower schools. From lesson planning to websites and community building, our platforms are designed to streamline processes, enhance communication, and create meaningful connections.",
+      tech: ["Laravel", "MySql", "Multi-Auth", "SCSS"],
       icon: <Code className="w-6 h-6" />,
       gradient: "from-orange-500 to-red-500",
-      features: ["Offline First", "Data Persistence", "Team Management", "Daily Tracking"]
+      features: ["Staff Development", "Enrichment Programs", "After School Websites", "Lesson Plan"],
+      url : "https://resourceportal.com/"
     },
     {
-      title: "Multi-Tenancy Platform",
-      description: "Domain and database-based tenancy support with role-based access control. Built using Laravel Stancl Tenancy for scalable SaaS architecture.",
-      tech: ["Laravel", "Stancl Tenancy", "MySQL", "Redis", "Docker"],
+      title: "Univa",
+      description: "Developed and contributed to Univa Technologies, a global distributor of electronic components with over 20 years of experience. The company offers intelligent supply chain distribution, custom integrated solutions, and value-added services across diverse sectors such as aerospace, defense, energy, telecommunications, consumer electronics, automotive, and power. Univa focuses on seamless sourcing, logistics, quality assurance, and competitive pricing through a global delivery model spanning Asia, Europe, and the USA.",
+      tech: ["Laravel", "Stancl Tenancy", "MySQL", "CSS3", "Multi-Auth"],
       icon: <Database className="w-6 h-6" />,
       gradient: "from-purple-500 to-pink-500",
-      features: ["Domain Tenancy", "DB Isolation", "Role Management", "Scalable Architecture"]
+      features: ["Agent Portal", "Admin Dashboard", "Role Management", "Scalable Architecture"],
+      url : "https://univatech.com/"
     },
     {
-      title: "Go CRUD API",
-      description: "Practice project for learning Go with clean folder structure, RESTful API design, and modern development practices. Currently work in progress.",
-      tech: ["Go", "Gorilla Mux", "PostgreSQL", "JWT", "Clean Architecture"],
+      title: "Rydwayz",
+      description: "At RYDWAYZ, we prioritize the needs of shift workers, college students and frequent commuters. Our platform is designed to make travel efficient, cost-effective, and stress-free for both drivers and passengers.",
+      tech: ["Laravel", "MySql", "Multi-Auth", "JWT", "Bootstrape"],
       icon: <Code className="w-6 h-6" />,
       gradient: "from-cyan-500 to-blue-500",
       features: ["Clean Architecture", "REST API", "JWT Auth", "Learning Project"],
-      isWIP: true
+      isWIP: true,
+      url : "https://rydwayz.com/"
     }
   ];
 
@@ -120,14 +125,14 @@ const Projects = () => {
 
                 {/* Project Links */}
                 <div className="flex space-x-3">
-                  <button className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                  {/* <button className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                     <Github size={16} />
                     <span className="text-sm">Code</span>
-                  </button>
-                  <button className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                  </button> */}
+                  <a href={project.url} className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                     <ExternalLink size={16} />
                     <span className="text-sm">Demo</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
