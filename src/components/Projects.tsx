@@ -135,7 +135,7 @@ const Projects = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <p className="text-gray-600 dark:text-gray-400 mb-6">
             Want to see more of my work?
           </p>
@@ -148,7 +148,7 @@ const Projects = () => {
             <Github size={20} />
             <span>View All Projects</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -27,7 +27,6 @@ const Skills = () => {
       skills: [
         { name: "Docker", level: 70, color: "bg-blue-600" },
         { name: "Git", level: 85, color: "bg-orange-600" },
-        { name: "PM2", level: 75, color: "bg-green-600" },
         { name: "GitHub Actions", level: 60, color: "bg-gray-600" },
         { name: "Supervisor", level: 65, color: "bg-purple-600" }
       ]

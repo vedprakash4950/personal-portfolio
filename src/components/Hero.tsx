@@ -39,7 +39,7 @@ const Hero = () => {
           {/* Description */}
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
             I'm a backend developer passionate about scalable architecture, clean code, and performance-first APIs. 
-            With 4+ years of experience building robust systems that power modern applications.
+            With 5+ years of experience building robust systems that power modern applications.
           </p>
 
           {/* CTA Buttons */}
@@ -64,7 +64,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 pt-8">
             <a
-              href="https://github.com/vedprakashpandey"
+              href="https://github.com/vedprakash4950"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-200 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
@@ -72,7 +72,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/vedprakashpandey"
+              href="https://www.linkedin.com/in/ved-prakash-pandey-721055193/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-200 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"

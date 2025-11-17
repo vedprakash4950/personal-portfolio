@@ -5,7 +5,7 @@ const About = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: "4+ Years Experience",
+      title: "5+ Years Experience",
       description: "Building robust backend systems with clean architecture"
     },
     {
@@ -42,13 +42,13 @@ const About = () => {
           <div className="space-y-6">
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                With over 4 years of hands-on experience in backend development, I specialize in building scalable, 
+                With over 5 years of hands-on experience in backend development, I specialize in building scalable, 
                 maintainable systems using modern technologies and best practices. My journey began with PHP and Laravel, 
                 and I've since expanded my expertise to include Node.js, JavaScript, and MySQL.
               </p>
               
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Currently, I'm exploring the power of Golang and diving deep into system design principles. 
+                Currently, I'm exploring the power of NodeJs and diving deep into system design principles. 
                 My passion lies in creating clean, well-architected solutions that can scale with business needs, 
                 particularly in the realm of multi-tenant SaaS platforms.
               </p>
